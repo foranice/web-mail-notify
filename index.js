@@ -34,13 +34,13 @@ let BHNES={
     headless:false
 }
 
-/*let taskNES=new Monitor(GameStopNES,(result)=>{
+let taskNES=new Monitor(GameStopNES,(result)=>{
     console.log(taskNES.name+':'+result)
     if(result){
         sendEmail(taskNES.name+'可以买了')
     }
 })
-taskNES.excute()*/
+taskNES.excute()
 
 let taskNES2=new Monitor(BHNES,(result)=>{
     console.log(taskNES2.name+':'+result)
